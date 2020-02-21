@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env PORT=8700 node ./src/bin/www",
+    "test": "cd test && mocha index.js"
+  },
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-cors": "0.0.3",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.3",
+    "morgan": "~1.9.1",
+    "nanoid": "^2.1.11",
+    "proj4": "^2.6.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.19.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2"
+  }
+}
